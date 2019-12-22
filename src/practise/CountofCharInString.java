@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class CountofCharInString {
 
-	static void characterCount(String inputString) {
+	public static void characterCount(String inputString) {
 		// Creating a HashMap containing char
 		// as a key and occurrences as a value
 		HashMap<Character, Integer> charCountMap = new HashMap<Character, Integer>();
